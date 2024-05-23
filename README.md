@@ -11,6 +11,12 @@ This repository contains custom scripts designed to enhance the functionality of
       - [Features](#features)
     - [QuickAdd: Update Current Page](#quickadd-update-current-page)
       - [Features](#features-1)
+    - [QuickAdd: Import Movies and Series](#quickadd-import-movies-and-series)
+      - [Features](#features-2)
+    - [Dataview: Book Shelf](#dataview-book-shelf)
+      - [Features](#features-3)
+    - [Dataview: Movie Shelf](#dataview-movie-shelf)
+      - [Features](#features-4)
   - [License](#license)
 
 ## Available Scripts
@@ -36,6 +42,37 @@ This script allows you to update the current page number of your book notes and 
 - Update the current page number of book notes.
 - Optionally update a daily note to track the number of pages read in a day.
 - Easily configure metadata keys and settings via QuickAdd.
+
+### QuickAdd: Import Movies and Series
+
+QuickAdd: Import Movies and Series is a custom macro for Obsidian that uses the QuickAdd and MetaEdit plugins to import detailed movie and series information from the OMDb API directly into your Obsidian vault. With this macro, you can efficiently create and manage notes for your favorite movies and TV shows. It integrates seamlessly with other Obsidian tools and is best used alongside the Obsidian Buttons plugin and the QuickAdd: Update Movie & Book Status macro.
+
+#### Features
+
+- Import detailed information about movies and series from the OMDb API.
+- Automatically generate and populate notes with movie and series data.
+- Configure valid statuses, ratings, and streaming platforms via QuickAdd.
+- Integrate seamlessly with other Obsidian tools and plugins.
+
+### Dataview: Book Shelf
+
+`Dataview: Book Shelf` is a custom JavaScript view for the Dataview plugin in Obsidian. This script allows you to create an interactive bookshelf that displays and filters your literature collection (books, zines, research papers, articles, etc.) based on type, status, rating, and genre. The view uses local storage to preserve your filter selections across sessions, providing a seamless and personalized browsing experience.
+
+#### Features
+
+- Display and filter your literature collection by type, status, rating, and genre.
+- Preserves filter selections using local storage.
+- Provides an interactive and user-friendly interface for managing your bookshelf.
+
+### Dataview: Movie Shelf
+
+`Dataview: Movie Shelf` is a custom JavaScript view for the Dataview plugin in Obsidian. This script allows you to create an interactive movie shelf that displays and filters your media collection (movies and series) based on type, status, rating, genre, and platform. The view uses local storage to preserve your filter selections across sessions, providing a seamless and personalized browsing experience.
+
+#### Features
+
+- Display and filter your media collection by type, status, rating, genre, and platform.
+- Preserves filter selections using local storage.
+- Provides an interactive and user-friendly interface for managing your movie shelf.
 
 ## License
 
